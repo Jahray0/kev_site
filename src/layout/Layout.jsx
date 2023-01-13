@@ -16,7 +16,7 @@ function Layout() {
     <div className="Layout">
       <Header />
       <Navbar />
-      <div className="container">
+      <div className="page_active">
         {/* Routing */}
         <Routes>
           <Route path="/" element={<Home />} />

@@ -2,14 +2,21 @@
 }
 
 img {
-  height: 400px;
+  height: 300px;
   width: 100%;
   object-fit: cover;
+  border-radius: 100px;
 }
 
-.title {
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title_banner {
   position: absolute;
-  top: 33%;
+  top: 250px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: red;
@@ -18,6 +25,6 @@ img {
   width: 100%;
 }
 
-h1 {
+.title_banner h1 {
   text-align: center;
 }
