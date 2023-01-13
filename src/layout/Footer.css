@@ -1,0 +1,19 @@
+.footer{
+    background-color: grey;
+    min-height: 150px;
+    display: flex;
+}
+
+.logo_content{
+    width: 20%;
+}
+
+.middle_content{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow_content{
+    width: 20%;
+}

@@ -4,16 +4,16 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div className="Navbar">
+    <div className="navbar">
       <ul>
         <li>
           <NavLink to="/">Accueil</NavLink>
         </li>
         <li>
-          <NavLink to="/">Activitées</NavLink>
+          <NavLink to="/Activitees">Activitées</NavLink>
         </li>
         <li>
-          <NavLink to="/">Qui suis-je</NavLink>
+          <NavLink to="/QuiSuisJe">Qui suis-je</NavLink>
         </li>
         <li>
           <NavLink to="/ContactForm">Contact</NavLink>

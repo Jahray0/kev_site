@@ -1,14 +1,16 @@
-li {
+.navbar {
+  align-items: center;
+}
+
+.navbar li {
   border: solid black 2px;
   padding: 10px;
   text-decoration: none;
 }
 
-ul {
+.navbar ul {
   display: flex;
   flex-direction: row;
 }
 
-.navbar {
-  align-items: center;
-}
+

@@ -1,13 +1,13 @@
 import "../components/Banner.css";
 import Banner from "../components/Banner";
 
-function Home() {
+function Activitees() {
   return (
     <div className="content">
-      <Banner titre="KevSite2022" />
+      <Banner titre="Activitées" />
       <h1>Bonjour a tous</h1>
     </div>
   );
 }
 
-export default Home;
+export default Activitees;

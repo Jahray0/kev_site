@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import Banner from "../components/Banner";
 
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
 const ContactForm = () => {
+
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = () => {
@@ -10,7 +12,7 @@ const ContactForm = () => {
       setSubmitted(true);
     }, 100);
   };
-
+  <Banner titre="Bonjour" />
   if (submitted) {
     return (
       <>
@@ -22,6 +24,7 @@ const ContactForm = () => {
   }
 
   return (
+    
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
