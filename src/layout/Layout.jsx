@@ -1,6 +1,7 @@
 //Routes dom
 import { Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Banner from "../components/Banner";
 //!= pages
 import Home from "../pages/Home";
 import ContactForm from "../pages/ContactForm";

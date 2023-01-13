@@ -1,0 +1,14 @@
+li {
+  border: solid black 2px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  align-items: center;
+}
