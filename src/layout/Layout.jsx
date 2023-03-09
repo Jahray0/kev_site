@@ -1,5 +1,6 @@
 //Routes dom
 import { Routes, Route } from "react-router-dom";
+import "./Layout.css";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 //!= pages

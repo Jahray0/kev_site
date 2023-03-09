@@ -1,9 +1,8 @@
 .container {
   position: relative;
   text-align: center;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .container img {
@@ -11,6 +10,7 @@
   width: 100%;
   object-fit: cover;
   border-radius: 50px;
+  opacity: 0.6;
 }
 
 .title_banner {
@@ -20,6 +20,7 @@
   transform: translate(-50%, -50%);
   font-size: 50px;
   font-weight: bold;
+  font-style: italic;
   color: red;
 }
 /*.img_content {
