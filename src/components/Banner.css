@@ -1,4 +1,27 @@
-.img_content {
+.container {
+  position: relative;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.title_banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+}
+/*.img_content {
 }
 
 img {
@@ -27,4 +50,4 @@ img {
 
 .title_banner h1 {
   text-align: center;
-}
+}*/ ;
