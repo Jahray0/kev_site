@@ -10,7 +10,7 @@
 - [ ] Faire un beau footer avec Partenariats
   - [ ] Chercher les différents partenaires de la région Alsace
   - [ ] Trouver leurs logos
-  - [ ] Les mettre dans le footer
+  - [ ] Les mettre dans le footer (liens vers leurs sites ?)
 - [ ] Plan du site
   - [ ] Reprendre les pages du site actuel
 
