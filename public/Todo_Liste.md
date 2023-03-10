@@ -8,10 +8,14 @@
 
 Fondre le logo dans la couleur de fond
 
-ACTIVITEES :
+## ACTIVITEES :
 
 Animation lors du survol d'une carte => Flip card pour voir une description a l'arriere
 
-QUI-SUI-JE :
+## QUI-SUI-JE :
 
-CONTACT :
+## CONTACT :
+
+'''html
+{<p>coucou</p>}
+'''
