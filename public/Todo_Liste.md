@@ -1,7 +1,5 @@
 #Voici ma todo-liste et à quoi elle sert
 
-- [x] tâche faite
-- [ ] tâche à faire
 - ~voici une tâche faite~
 - noter tout ce qui me vient à l'esprit
 - noter ce qu'il me reste à faire
@@ -14,11 +12,11 @@
   - [ ] Trouver leurs logos
   - [ ] Les mettre dans le footer
 - [ ] Plan du site
-  - [ ]Reprendre les pages du site actuel
+  - [ ] Reprendre les pages du site actuel
 
 ## HOME :
 
-- [ ]Fondre le logo dans la couleur de fond
+- [ ] Fondre le logo dans la couleur de fond
 
 ## ACTIVITEES :
 
