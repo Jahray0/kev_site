@@ -1,7 +1,12 @@
-# GLOBALE :
+#Voici ma todo-liste et à quoi elle sert
 
--Faire un beau footer avec
--Partenariats,
+> noter tout ce qui me vient à l'esprit
+> noter ce qu'il me reste à faire
+> mettre mes idées (animations, design)
+
+## GLOBALE :
+
+-Faire un beau footer avec Partenariats  
 -Plan du site
 
 ## HOME :
