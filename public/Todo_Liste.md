@@ -1,7 +1,7 @@
 #Voici ma todo-liste et à quoi elle sert
 
-> noter tout ce qui me vient à l'esprit
-> noter ce qu'il me reste à faire
+> noter tout ce qui me vient à l'esprit  
+> noter ce qu'il me reste à faire  
 > mettre mes idées (animations, design)
 
 ## GLOBALE :
