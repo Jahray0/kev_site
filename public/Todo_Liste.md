@@ -1,4 +1,4 @@
-#Voici ma todo-liste et à quoi elle sert
+# Voici ma todo-liste et à quoi elle sert
 
 - ~voici une tâche faite~
 - noter tout ce qui me vient à l'esprit
