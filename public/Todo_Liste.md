@@ -17,7 +17,5 @@ Animation lors du survol d'une carte => Flip card pour voir une description a l'
 ## CONTACT :
 
 ```html
-{
 <p>coucou</p>
-}
 ```
