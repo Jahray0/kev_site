@@ -1,0 +1,27 @@
+.act_content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.act_vignettes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards {
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 45%;
+}
+
+.cards:hover {
+  background-color: red;
+}
+
+.card_image img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
