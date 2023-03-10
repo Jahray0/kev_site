@@ -1,5 +1,7 @@
 #Voici ma todo-liste et à quoi elle sert
 
+- [x] tâche faite
+- [ ] tâche à faire
 - ~voici une tâche faite~
 - noter tout ce qui me vient à l'esprit
 - noter ce qu'il me reste à faire
