@@ -1,6 +1,7 @@
 import "./Activitees.css";
 import "../components/Banner.css";
 import Banner from "../components/Banner";
+import FlipCard from "../components/FlipCard";
 import image1 from "../assets/image1.jpg";
 import image2 from "../assets/image2.jpg";
 import image3 from "../assets/image3.jpg";
@@ -10,6 +11,7 @@ function Activitees() {
   return (
     <div className="content_p2">
       <Banner titre="Activitées" />
+      <FlipCard />
       <div className="act_content">
         <div className="act_title">
           <h2>Activitées</h2>
