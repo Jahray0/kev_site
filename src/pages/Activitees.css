@@ -16,12 +16,13 @@
   width: 45%;
 }
 
-.cards:hover {
-  background-color: red;
+.card_image img {
+  height: 400px;
+  width: 100%;
 }
 
-.card_image img {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
+.card_image p {
+  padding: 20px;
+  font-size: 24px;
+  text-align: justify;
 }

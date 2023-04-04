@@ -1,7 +1,7 @@
 .container_vign {
   position: relative;
-  width: 350px; /* ajustez la largeur selon vos besoins */
-  height: 250px; /* ajustez la hauteur selon vos besoins */
+  width: 100%;
+  height: 400px;
 }
 
 .image_vign {

@@ -1,8 +1,7 @@
 import { useState } from "react";
-import image1 from "../assets/image1.jpg";
 import "./FlipCard.css";
 
-function ImageWithText(imageUrl, texteOverlay) {
+function FlipCard({ imageUrl, textOverlay }) {
   const [showText, setShowText] = useState(false);
 
   return (
@@ -11,12 +10,10 @@ function ImageWithText(imageUrl, texteOverlay) {
       onMouseEnter={() => setShowText(true)}
       onMouseLeave={() => setShowText(false)}
     >
-      <img className="image_vign" src={image1} alt="Bannière à propos" />
-      <div className={`text_vign ${!showText && "hide"}`}>
-        Your text overlay
-      </div>
+      <img className="image_vign" src={imageUrl} alt="Bannière à propos" />
+      <div className={`text_vign ${!showText && "hide"}`}>{textOverlay}</div>
     </div>
   );
 }
 
-export default ImageWithText;
+export default FlipCard;
