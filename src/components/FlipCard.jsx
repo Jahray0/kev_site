@@ -1,29 +1,22 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import image1 from "../assets/image1.jpg";
 import "./FlipCard.css";
 
-function FlipCard() {
-  const [isFlipped, setIsFlipped] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsFlipped(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsFlipped(false);
-  };
+function ImageWithText(imageUrl, texteOverlay) {
+  const [showText, setShowText] = useState(false);
 
   return (
     <div
-      className="vignette"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      className="container_vign"
+      onMouseEnter={() => setShowText(true)}
+      onMouseLeave={() => setShowText(false)}
     >
-      <div className={`vignette-front ${isFlipped ? "flipped" : ""}`}>
-        Front
+      <img className="image_vign" src={image1} alt="Bannière à propos" />
+      <div className={`text_vign ${!showText && "hide"}`}>
+        Your text overlay
       </div>
-      <div className={`vignette-back ${isFlipped ? "flipped" : ""}`}>Back</div>
     </div>
   );
 }
 
-export default FlipCard;
+export default ImageWithText;
