@@ -23,10 +23,10 @@
 - [ ] CARDS :
   - [ ] En version desktop et tablette, mettre les activitées avec 2 cards par ligne
   - [ ] En version mobile, mettre les activitées avec 1 card par ligne
-  - [ ] ajuster l'image a la card
+  - [x] ajuster l'image a la card
   - [ ] arrondir les bordures des cards
   - [ ] ajuster le titre (margin, padding, font-size, color)
-- [ ] Animation lors du survol d'une carte => Flip card pour voir une description a l'arriere
+- [x] Animation lors du survol d'une carte => Flip card pour voir une description a l'arriere
 
 ## QUI-SUI-JE :
 

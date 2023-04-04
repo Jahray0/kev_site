@@ -14,7 +14,10 @@ function Activitees() {
 
       <div className="act_content">
         <div className="act_title">
-          <h2>Activitées</h2>
+          <h2>
+            Voici une sélection des activitées que je propose. Je vous invite a
+            passer le curseur sur les vignettes pour en savoir plus.
+          </h2>
         </div>
         <div className="act_vignettes">
           <div className="cards">
